@@ -1,0 +1,19 @@
+동영상을 출력하는 태그
+- video태그로 동영상을 출력할 수 있다.
+
+
+form 태그와 레이아웃태그
+- form과 div, span은 매우 중요하다!
+
+
+form에 대해서!
+- form을 이용해서 서버에게 값을 넘겨줄 수 있다.
+    action 속성값을 이용해서... 값으로는 주소를 넣어주면 됨.
+    method 속성에는 http 통신 메소드를 넣는다. 예를들어, GET, POST 방식.
+
+<form action="loginPro.jsp" method="POST">
+...생략...
+</form>
+
+- POST를 이용하면 정보 은닉이 가능하다.
+- GET방식은 정보가 은닉은 안된다.
