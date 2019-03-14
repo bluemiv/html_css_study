@@ -1,0 +1,6 @@
+태그란?
+- HTML 문서를 구성하는 요소.
+- 열린태그(<>)로 시작하여 닫힌태그(</>)로 끝난다. 예: <div>내용</div>
+- 태그에는 이름(name)과 속성(attribute)이 있다.
+    <a href="https://hongku.tistory.com">나의 블로그 </a>
+    a는 이름,   href는 속성,    https://hongku...생략: href속성의 값
