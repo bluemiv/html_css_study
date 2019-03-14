@@ -1,0 +1,32 @@
+WEB이란
+- WEB이란 사전적인 의미로 거미줄이란 뜻.
+- IT에서는 WWW(World Wide Web)이라는 말의 줄임말로 사용됨.
+- 전 세계의 컴퓨터들을 연결하여 정보 공유를 하는데 주 목적이 있다.
+- 그리고 컴퓨터간에 연결되어 있는 상태를 네트워크에 연결된 상태라 할 수 있다.
+
+
+
+프로토콜(Protocol): 네트워크 상에서 약속한 통신 규약(http, ftp, smtp, pop, dhcp)
+IP: 네트워크상에서 컴퓨터를 식별할 수 있는 주소
+DNS: 사람이 IP주소를 쉽게 알 수 있게 도와주는 이름
+(DNS server: 도메인을 알려주는 서버 ex-> google domain server: 8.8.8.8)
+Port: IP주소가 컴퓨터를 식별해주고, Port는 구동되고 있는 프로그램을 구분해준다.
+(web browser를 통해 접속할때는 기본으로 80번로 접속시켜줌 -> 생략이 가능하다.)
+
+http://honku.tistory.com:80/category/Kotlin
+프로토콜(http)    도메인(honku.tistory.com)     포트(80)    Information path(category/Kotlin)
+
+
+
+HTML이란?
+- Hyper Text Markup Language로 웹 문서를 표현하기 위한 언어
+- 웹문서를 표현하기 위해 캐그들로 구성되어 있다.
+- html 문서를 인터프리터기가 읽어서 화면에 출력해 보여준다.
+- 태그는 <, > 꺽새 특수 기호로 이루어져 있다.
+- 디자인적인 부분도 만들 수 있는데 이때 쓰는 언어가 CSS이다.
+
+CSS란?
+- Cascading Style Sheets의 약자로, html문서를 디자인적으로 예쁘게 만들어준다.
+- CSS가 없어도 정보가 없어진다거나 하는 문제는 없지만, 효율적으로 정보를 볼 수 있게 도와주는 역할을 한다.
+
+정리하면 html은 정보를 가지고 있고, CSS는 화면상의 디자인을 컨트롤한다.
