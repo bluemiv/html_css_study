@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <title>9장 예제1</title>
+        <style>
+            #wrap {
+                width: 800px;
+                margin: 0 auto;
+            }
+
+            #header {
+                border-bottom: 1px solid #333;
+            }
+
+            #second_content:first-letter, #first_content:first-letter {
+                font-size: 2em;
+            }
+
+            #second_content:first-line, #first_content:first-line {
+                font-size: 1.5em;
+                color: darkcyan;
+            }
+
+            #footer {
+                text-align: center;
+                padding: 15px;
+                font-weight: bold;
+                font-size: 1.25em;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrap">
+            <!-- header -->
+            <div id="header">
+                <h1>일기장</h1>
+            </div>
+
+            <!-- main content -->
+            <div id="content">
+                <p>안녕하세요. 본문입니다.</p>
+                <p id="second_content">2019-03-15<br>오늘은 날씨가 맑습니다만 미세먼지가 좀 있네요</p>
+                <p id="first_content">2019-03-14<br>오늘 날씨가 맑습니다. 미세먼지는 없는거 같고 조금 쌀쌀합니다.</p>
+            </div>
+
+            <!-- footer -->
+            <div id="footer">
+                <p>Copyright 2019 taehong</p>
+                <a href="../index.html">Home</a>으로 이동
+            </div>
+        </div>
+    </body>
+</html>

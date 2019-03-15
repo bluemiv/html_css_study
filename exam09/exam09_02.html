@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <title>9장 예제2</title>
+        <style>
+            #content a::after {
+                content: ' - ' attr(href);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrap">
+            <div id="content">
+                <ul>
+                    <li><a href="https://www.google.com">Google</a></li>
+                    <li><a href="https://www.naver.com">Naver</a></li>
+                </ul>
+            </div>
+            <a href="../index.html">Home</a>으로 이동
+        </div>
+    </body>
+</html>
