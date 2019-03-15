@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>7장 예제4</title>
+        <style>
+            header > h1 {
+                font-size: 3em;
+                color: darkgray;
+            }
+            nav li {
+                color: blueviolet;
+            }
+            section p {
+                font-weight: bold;
+            }
+            footer > p {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>header의 자손 제목</h1>
+            <div>
+                <h1>header > div > h1 이기 때문에 후손이므로 적용 안됨.</h1>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li>menu1</li>
+                <li>menu2</li>
+                <li>menu3</li>
+            </ul>
+        </nav>
+        <section>
+            <p>본문입니다. 본문입니다. 본문입니다. 본문입니다. 본문입니다. 본문입니다.</p>
+            <p>본문입니다. 본문입니다. 본문입니다. 본문입니다. 본문입니다. 본문입니다.</p>
+            <p>본문입니다. 본문입니다. 본문입니다. 본문입니다. 본문입니다. 본문입니다.</p>
+            <p>본문입니다. 본문입니다. 본문입니다. 본문입니다. 본문입니다. 본문입니다.</p>
+        </section>
+        <footer>
+            <p>Copyright 2019 taehong.</p>
+            <div>
+                <p>010-1234-1234</p>
+                <p>footer > div > p라서, 즉 후손이니깐 적용 안됨.</p>
+            </div>
+        </footer>
+        <br>
+        <hr>
+        <a href="../index.html">Home</a>으로 이동.
+    </body>
+</html>
