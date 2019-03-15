@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8"/>
+        <title>10장 예제1</title>
+        <style>
+            * {
+                padding: 0px;
+                margin: 0px;
+            }
+
+            div {
+                height: 100px;
+            }
+
+            div:nth-child(2n-1) {
+                background-color:burlywood;
+            }
+            div:nth-child(2n) {
+                background-color: aqua;
+            }
+
+            div:nth-child(1) {
+                display: block;
+            }
+            div:nth-child(2) {
+                display: block;
+            }
+            div:nth-child(3) {
+                display: block;
+            }
+
+            div:nth-child(4) {
+                display: inline;
+                margin: 50px;
+            }
+            
+            div:nth-child(5) {
+                display: inline;
+            }
+            div:nth-child(6) {
+                display: inline;
+            }
+
+            div:nth-child(7) {
+                display: inline-block;
+            }
+            div:nth-child(8) {
+                display: inline-block;
+            }
+            div:nth-child(9) {
+                display: inline-block;
+            }
+
+            div:nth-child(10) {
+                display: none;
+            }
+            div:nth-child(11) {
+                visibility: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <div>block</div>
+        <div>block</div>
+        <div>block</div>
+        <div>inline</div>
+        <div>inline</div>
+        <div>inline</div>
+        <div>inline-block</div>
+        <div>inline-block</div>
+        <div>inline-block</div>
+        <div>none</div>
+        <div>visibility</div>
+        <p>none은 아이에 공간마저 안보임. visibility는 공간은 남아있음</p>
+        <br>
+        <hr>
+        <a href="../index.html">Home</a>으로 이동.
+    </body>
+</html>
