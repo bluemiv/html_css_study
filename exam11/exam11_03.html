@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <title>11장 예제3</title>
+    <style>
+        div{
+            padding: 20px;
+            margin: 0 auto;
+            height: 500px;
+            color: #fff;
+        }
+        div:nth-child(1) {
+            width: 80%;
+            background-image: url('images/ioi.jpg');
+            background-size: 100%;
+        }
+        div:nth-child(2) {
+            width: 80%;
+            background-image: url('images/ioi.jpg');
+            background-size: 50%;
+        }
+        div:nth-child(3) {
+            width: 80%;
+            background-image: url('images/ioi.jpg');
+            background-size: 50%;
+            background-repeat: no-repeat;
+        }
+        div:nth-child(4) {
+            width: 80%;
+            background-image: url('images/ioi.jpg');
+            background-size: 30%;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h3>첫번째 백그라운드 이미지 - size 100%</h3>
+    </div>
+
+    <div>
+        <h3>두번째 백그라운드 이미지 - size 50%</h3>
+    </div>
+
+    <div>
+        <h3>세번째 백그라운드 이미지 - no repeat</h3>
+    </div>
+    
+    <div>
+        <h3>네번째 백그라운드 이미지 - size30%, attachment(fixed)</h3>
+        <p>브라우저 상단부터 시작</p>
+    </div>
+
+    <br>
+    <hr>
+    <a href="../index.html">Home</a>으로 이동.
+</body>
+
+</html>
