@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <title>8장 예제4</title>
+    <style>
+        #header,
+        #content,
+        #footer {
+            width: 1000px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        #header .left_space,
+        #content .left_space,
+        #footer .left_space {
+            border: 1px solid #aaa;
+            width: 150px;
+            height: 150px;
+            background-color: #ccc;
+            float: left;
+        }
+
+        #header .center_space,
+        #content .center_space,
+        #footer .center_space {
+            border: 1px solid #aaa;
+            width: 694px;
+            height: 150px;
+            background-color: #ccc;
+            float: left;
+        }
+
+        #header .right_space,
+        #content .right_space,
+        #footer .right_space {
+            border: 1px solid #aaa;
+            width: 150px;
+            height: 150px;
+            background-color: #ccc;
+            float: right;
+        }
+
+        #header .left_space,
+        #footer .right_space {
+            border-radius: 30px 0;
+        }
+
+        #header .right_space,
+        #footer .left_space {
+            border-radius: 0 30px;
+        }
+
+        /* header */
+        #header .center_space {
+            border-radius: 0 0 30px 30px;
+        }
+
+        /* content */
+        #content .right_space {
+            border-radius: 30px 0 0 30px;
+        }
+
+        #content .left_space {
+            border-radius: 0 30px 30px 0;
+        }
+
+        #content .left_space,
+        #content .right_space,
+        #content .center_space {
+            height: 300px;
+        }
+
+        #content .center_space {
+            border-radius: 30px;
+        }
+        
+        #content .center_space ul {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        #content .center_space ul li {
+            display: inline-block;
+            padding: 0 20px 0 20px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 2em;
+        }
+
+        #content .center_space div p {
+            margin: 10px;
+            font-style: italic;
+            font-size: 1.5em;
+        }
+
+        /* footer */
+        #footer .center_space {
+            border-radius: 30px 30px 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header">
+        <div class="left_space"></div>
+        <div class="center_space"></div>
+        <div class="right_space"></div>
+    </div>
+
+    <!-- 본문 -->
+    <div id="content">
+        <div class="left_space"></div>
+        <div class="center_space">
+            <div>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li>menu</li>
+                    <li>menu</li>
+                    <li>menu</li>
+                    <li>menu</li>
+                </ul>
+            </div>
+            <div>
+                <p>본문입니다. 본문입니다. 본문입니다. 본문입니다. 본문입니다.</p>
+                <p>본문입니다. 본문입니다. 본문입니다.</p>
+                <p>본문입니다. 본문입니다. 본문입니다. 본문입니다.</p>
+                <p>본문입니다. 본문입니다. 본문입니다. 본문입니다. 본문입니다. 본문입니다.</p>
+            </div>
+        </div>
+        <div class="right_space"></div>
+    </div>
+
+    <!-- footer -->
+    <div id="footer">
+        <div class="left_space"></div>
+        <div class="center_space"></div>
+        <div class="right_space"></div>
+    </div>
+</body>
+
+</html>

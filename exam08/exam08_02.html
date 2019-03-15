@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <title>8장 예제2</title>
+    <style>
+        input:focus {
+            border: 2px solid red;
+            padding: 10px;
+        }
+        input:enabled {
+            color: yellowgreen;
+            font-weight: bold;
+        }
+        input:disabled {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form action="#" method="post">
+            이름 <input type="text" /><br>
+            아이디 <input type="text" /><br>
+            비밀번호 <input type="password" disabled value="!234"/><br>
+            주소 <input type="text"/><br>
+        </form>
+    </div>
+    <br>
+    <hr>
+    <a href="../index.html">Home</a>으로 이동
+</body>
+
+</html>
