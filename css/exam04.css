@@ -1,0 +1,42 @@
+/*CSS reset*/
+body, h3, p {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    background-color: yellowgreen;
+}
+.item {
+    display: block;
+    padding: 5%;
+}
+.item-a {
+    background-color: orange;
+}
+.item-b {
+    background-color: yellow;
+}
+.footer {
+    background-color: gray;
+    padding: 5%;
+}
+
+@media screen and (min-width: 700px) {
+    .container::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .item {
+        float: left;
+    }
+    .item-a {
+        width: 30%;
+    }
+    .item-b {
+        width: 50%;
+    }
+    .footer {
+        padding: 2%;
+    }
+}

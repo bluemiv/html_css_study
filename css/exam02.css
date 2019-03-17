@@ -1,0 +1,24 @@
+/* CSS Reset */
+body, h3, p {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    max-width: 1000px;/* 최대 1000px까지만 */
+    margin: 0 auto; /* 중앙 정렬 */
+    font-size:0;
+}
+.item {
+    font-size:1rem; /* root em: 보통 16px */
+    display: inline-block;
+    vertical-align: top;
+    padding: 5%;
+}
+.item-a {
+    width: 30%;
+    background-color: yellow;
+}
+.item-b {
+    width: 50%;
+    background-color: yellowgreen;
+}

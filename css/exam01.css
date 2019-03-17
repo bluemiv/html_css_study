@@ -1,0 +1,16 @@
+body {
+    font-size: 2em;
+}
+
+div {
+    background-color: red;
+    height: 300px;
+    width: 200px;
+}
+
+span {
+    background-color: blue;
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+}
